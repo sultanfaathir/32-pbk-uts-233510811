@@ -17,7 +17,7 @@ const addTask = () => {
 }
 
 const toggleTask = (task) => {
-  task.completed = !task.completed
+  task.completed == !task.completed
 }
 
 const deleteTask = (task) => {
